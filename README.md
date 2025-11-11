@@ -7,9 +7,9 @@ Projede, en iyi tahmin modelini bulmak amacıyla scikit-learn kütüphanesi kull
 Projenin Amacı
 Projenin temel amacı, günün saati, sıcaklık ve tarih gibi özelliklere dayanarak spor salonundaki yoğunluğu (number_people) mümkün olan en doğru şekilde tahmin edebilen bir regresyon modeli geliştirmektir.
 
-Bu amaçla, farklı algoritmaların performansları R2 (R-squared), Mean Absolute Error (MAE) ve Root Mean Squared Error (RMSE) metrikleri kullanılarak değerlendirilmiştir. En iyi sonuçları vermeye aday olan KNeighborsRegressor ve RandomForestRegressor modelleri için RandomizedSearchCV kullanılarak hiperparametre optimizasyonu yapılmıştır.
+Bu amaçla, farklı algoritmaların performansları R2 (R-squared), Mean Absolute Error (MAE) ve Root Mean Squared Error (RMSE) metrikleri kullanılarak değerlendirilmiştir.
 
-📊 Veri Seti Bilgileri
+ Veri Seti Bilgileri
 Veri Kaynağı: Kaggle - Crowdedness at the Campus Gym
 
 Veri Seti Özellikleri (Temel Sütunlar):
@@ -17,8 +17,6 @@ Veri Seti Özellikleri (Temel Sütunlar):
 number_people: Salondaki anlık kişi sayısı (Hedef Değişken - y)
 
 date: (Tarih bilgisi - Özellik mühendisliği için kullanıldı)
-
-timestamp: (Zaman damgası - Analizde kullanılmadı)
 
 temperature: Sıcaklık
 
